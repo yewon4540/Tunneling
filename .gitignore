@@ -1,0 +1,8 @@
+.env
+*.log
+*.ipynb
+*.ico
+*.spec
+build/
+dist/
+*.zip

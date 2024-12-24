@@ -1,0 +1,11 @@
+Host Tunnel
+    HostName 호스트값
+    User 유저
+    IdentityFile 인증키경로
+    Port 포트
+
+Host JAVA8
+    HostName 호스트값
+    User 유저
+    IdentityFile 인증키경로
+    ProxyCommand ssh -A Tunnel -W %h:%p
